@@ -51,3 +51,75 @@ console.log(maxNumber); // Output: 5*/
 }
 console.log(lowestNo([1000,200,300,400,500]))*/
 
+// uses of forEach
+
+//Date 08|12|2024
+
+/*let arr = [1,2,3,4,5,6,7,8,9,10];
+
+arr.forEach(function(val){
+        console.log(val)
+        console.log("hello world")
+})*/
+
+// If else conditions
+
+/*function findgrade(score){
+    if(score > 100 || score < 0 ){
+        console.log("Invalid Score")
+    }else if(score >= 90){
+        console.log("Congratulation! Your grade is A", score)
+    }else if(score >= 80){
+        console.log("Your Grade is B", score)
+    }else if(score >= 70){
+        console.log("Your Grade is C", score)
+    }else if(score >= 34){
+        console.log("Your grade is D", score)
+    }else if(score <= 33){
+        console.log("your grade is f you are fail", score)
+    }
+}
+findgrade(33)*/
+/*function findLargest(a, b, c) {
+    if (a >= b && a >= c) {
+      return `greatest no is ${a}`;
+    } else if (b >= a && b >= c) {
+      return `greatest no is ${b}` ;
+    } else {
+      return "greatest no is", c;
+    }
+  }
+  
+  // Test cases:
+  console.log(findLargest(5, 10, 3)); // 10
+  console.log(findLargest(7, 7, 3));  // 7
+  console.log(findLargest(-1, -5, -10)); // -1*/
+
+/*function isvowels(string){
+    for(let i = 0; i < string.length; i++){
+        if(string[i] === 'a' || string[i] === 'e' || string[i] === 'i' || string[i] === 'o' || string[i] === 'u'){
+            console.log("Vowels is", string[i])
+        }
+        // console.log(string[i])
+    }
+    
+}
+  
+ isvowels("aarij")*/
+ 
+ /*function checkNumber(num) {
+    if (num > 0) {
+      return 'Positive';
+    } else if (num < 0) {
+      return 'Negative';
+    } else {
+      return 'Zero';
+    }
+  }
+  
+  // Test cases:
+  console.log(checkNumber(10)); // Positive
+  console.log(checkNumber(-5)); // Negative
+  console.log(checkNumber(0));  // Zero*/
+  
+
