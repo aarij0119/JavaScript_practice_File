@@ -121,5 +121,24 @@ findgrade(33)*/
   console.log(checkNumber(10)); // Positive
   console.log(checkNumber(-5)); // Negative
   console.log(checkNumber(0));  // Zero*/
-  
+
+
+// FIND DUPLICATE NUMBERS IN AN ARRAY
+
+// function finduplicate(arr){
+//   let duplicate = [];
+//   let counts = {};
+//   arr.forEach(function(val){
+//     // console.log("hello", val)
+//     counts[val] = (counts[val] || 0) + 1 // it will increase the key vaku of object
+//     console.log("count value ", counts)
+//     if(counts[val] === 2){
+//       duplicate.push(val)
+//     }
+//   })
+//   return duplicate;
+// }
+
+// console.log(finduplicate([1,2,2,3,4,5,6,6]))
+
 
