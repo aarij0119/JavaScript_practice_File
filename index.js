@@ -142,3 +142,46 @@ findgrade(33)*/
 // console.log(finduplicate([1,2,2,3,4,5,6,6]))
 
 
+// What is Declaration?
+//Declaration var a = initialize 10 this is 
+
+// Var is global is scope. How?
+// Let and const is block scope.
+/*function find(){
+  if(true){
+    // let a = 12 
+    // const a = 10
+    var a  = 12
+  }{
+    // it will show a is not defined we declare it under curley brushes same will come if you use const
+    // but if use var it not show any error because var is globar variable. 
+    console.log(a)
+  }
+}
+find()*/
+
+
+// console in js
+//to show warning in js
+// console.warn("You are not alloewed on this web.");
+// to show error
+// console.error("You are not alloewed on this web.");
+// to print anything
+// console.log("You are not alloewed on this web.");
+
+
+// const abcd = (a,b,c) => a + b + c; // Example of using the parameter
+// console.log(abcd(5,3,5)); // 12
+
+/*const obj = {
+  name: "bisleri",
+  color: "Tranparent",
+  material: "Plastic",
+  reuseable: true
+}
+
+for(let val in obj){
+  console.log(val, obj[val])
+}*/
+
+
