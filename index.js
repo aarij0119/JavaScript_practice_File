@@ -187,5 +187,77 @@ for(let val in obj){
 // Blank array 
 
 
+// INTERVIEW QUESTIONS
+
+// Q1. What are the differences between var, let, and const?
+
+// var a = 10; // Initial declaration
+// console.log(a);
+// a = 12; // Reassigning to a new value
+// console.log(a);
+// var a = 20;
+// console.log(a);
+
+//Ans = var we can initilise and  redeclare, reassign
+
+// let b =  10;
+// console.log(b);
+// b = 30;
+// console.log(b);
+// let b = 40; // Here is redeclare
+// console.log(b) // So now it will show an error of redeclare because b has been already initialise
+
+//Ans = So, We can reassign the value of "let" but we can't redeclare the value of "let"
+
+// const c = 20;
+// console.log(20); // output wil be 20;
+
+// c = 30;
+// console.log(c); // It will show an error that can't reassign the value of "c";
+
+// const c = 40;
+// console.log(c); // It will show an error that can't redeclare the value of "c";
+
+// Ans = So, diffrenece between var,let,const, var we can initilise redeclare and reassign the value of var but in "let" we can't redeclare but we can reassign the value but in const we can't redecaler even can't reassign the value and const,let are scope variable;
+
+
+// Question 2 =  What is a Closure?
+
+//A closure is a function that has access to its own scope, the scope of the outer function, and the global scope. In other words, a closure allows a function to access variables from an outer function's scope even after the outer function has returned.
+
+// function outsider(){
+//     let outsider = "Outsider";
+
+//     function innerSider(){
+//         console.log(outsider)
+//     }
+//     return innerSider
+// }v 
+
+// const clouser = outsider()
+// clouser() 
+
+//Question  = 3  What is a Promise?
+//A Promise is an object representing the eventual completion or failure of an asynchronous operation. It can be in one of three states:
+
+//Pending: The initial state, neither fulfilled nor rejected.
+
+//Fulfilled: The operation completed successfully.
+
+//Rejected: The operation failed.
+
+// QUESTION = 4 How does this keyword work in JavaScript?
+
+//Global Context
+//console.log(this); // In browser, this refers to `window`
+
+// const person = {
+//     name: 'John',
+//     greet: function() {
+//         console.log(this.name);
+//     }
+// };
+
+// person.greet(); // Outputs: John
 
 
