@@ -260,4 +260,174 @@ for(let val in obj){
 
 // person.greet(); // Outputs: John
 
+// 50 Questions in Js.
+
+// 1 console your name ?
+// console.log("Aarij","I love to learn more in js" );
+
+// 2 console 45*2-10
+// console.log(45*2-10);
+
+// 3 use console to display the current year
+// const year = new Date();
+// console.log(year.getFullYear());
+
+// 4 create 2 variables for first and last name concatenate and log them
+// var first = "Mohammad ";
+// var last = " Aarij";
+// console.log(first + last);
+
+// 5 track the value of a variable by login it before and ater edit it
+// var a = 10;
+// console.log(a)
+// a = 30;
+// console.log(a)
+
+// 6 Use console.error() to log an error message
+// console.error("This website is not for childrens");
+
+// 7 Log the square of 12 to console
+// console.log(12*12);
+
+// 8 Print the type of a variable holding the value of true
+// const value = true;
+// what is typeof typeof is a opretaor in js use to find the type of a variable
+// console.log(typeof value)
+//**It shows a Array to an object because array is an object in js
+
+// 9 Create a variable holding your age and log weateher it's greater than 18;
+// var age = 18;
+// if(age >= 18) console.log("You are elogible for vote");
+// else console.error("You are not eligible for vote");
+
+// 10 console log it 100 / 0
+// console.log(100 / 0);
+
+// 11 declare a variable using let and log it
+// let a = 10;
+// console.log(a);
+// if i ressign the value of let it will work but if i redeclare the value of let it will give error that a is already declare
+
+// 12 declare a constant variable to store the value of pi
+// const Pi = Math.PI;
+// console.log(Pi)
+
+// 13 reassign the value of a variable declare with let and const and log them result
+// let a  = 12;
+// console.log(a); // This will work
+// a = 20;
+// console.log(a); // this one also
+// const b = 40;
+// console.log(b); // this will show true
+// b = 50; // const b = 70 // but this will show an error that we can't reassign the value of we can't redeclare the value
+// console.log(b)
+
+// 14 chect the type of null and check it
+// const a  = null;
+// console.log(typeof a);
+
+// 15 create a variable with a number as a string (eg. "10") and log it type
+// const number = "25";
+// const type  = typeof number;
+// console.log(type);
+
+// 16 Use type of to check the type of a boolean variable
+// let b = true;
+// console.log(typeof b);
+
+// 17 Create three valriables of types string,number,and boolean and log their values
+// const username = "Aarij";
+// let number  = 119;
+// var valuetype = "boolean";
+// console.log(username, number, valuetype);
+
+// 18 declare a variable without assign the value log it's type
+//const a ; // this will show missing initializer in const declaration
+//var a; // this will show undefined;
+// let a ; // this will show undefined
+// console.log(typeof a);
+
+// 19 types
+// "Aarij" = string,
+// 119 = number,
+// null = object,
+// true = boolean,
+// array = object,
+// function = function,
+// undefined = undefined,
+// NaN = number,
+
+// 20 Write the for loop to to print number from 1 t0 50
+// for(let i = 1; i <= 50; i++){
+//   console.log(i)
+// }
+
+// 21 use a while loop to sum the number of 1 to 10;
+// let number = 1;
+// let sum = 0;
+// while(number <= 10){
+//   sum += number;
+//   number++
+// }
+// console.log(sum);
+
+// 22 use for of loop to log the values of an string;
+// const str = "Aarij";
+// for(let character of str){
+//   console.log(character);
+// }
+
+// 23 write a for loop to log odd numbers from 1 to 20;
+// for(let i = 1; i < 20; i++){
+//   if(i % 2 !== 0){
+//     console.log(i)
+//   }
+// }
+
+// 24 use dowhile loop to log number 1 to 5
+// var a = 5
+// do{
+//   console.log(a);
+//   a++
+// }while( a <= 5)
+
+// 25 calculate the factorial of 5 using a for loop;
+// let fact = 1;
+// for(let i = 5; i>0; i--){
+//   fact =fact*i;
+// };
+// console.log(fact);
+
+// 26 print a grid of 3 * 3 using nested loop;
+// let hold = 1;
+// for(let i = 1; i <= 3; i++){
+//   let str = ''
+//   for(let j = 1; j<= 3; j++){
+//     str += `${hold} `
+//     hold++
+//   }
+//   console.log(str)
+// }
+
+// 27 use a for loop to reverse an array;
+// const arr = [1,2,3,4,5,6,7,8,9,10];
+// for(let i = 0; i < Math.floor(arr.length/2); i++){
+//   var temp = arr[i];
+//   arr[i] = arr[arr.length -1 - i];
+//   arr[arr.length - 1 - i] = temp;
+// }
+// console.log(arr);
+
+// const arr = [1,2,3,4,5,6,7,8];
+// for(let i = 0; i< arr.length; i++){
+//   arr[i] = arr[arr.length - 1 - i]
+// }
+// console.log(arr);
+
+// 28 write a while loop that logs numbers fro 1 to 100 divisible by 5
+let i = 1;
+while(i < 100){
+  console.log(i)
+  i ++
+}
 
