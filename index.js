@@ -424,10 +424,115 @@ for(let val in obj){
 // }
 // console.log(arr);
 
-// 28 write a while loop that logs numbers fro 1 to 100 divisible by 5
-// let i = 1;
-// while(i < 100){
-//   console.log(i)
-//   i ++
+// 28 write a while loop that logs numbers from 1 to 100 divisible by 5
+// let num = 1;
+// while(num < 100){
+//   if(num % 5 === 0){
+//     console.log(num);
+//   }
+//   num++
 // }
 
+// 29 write an object use for in loop to log all keys and iterate it
+// const obj = {
+//   Username: "Aarij",
+//   Age: 18,
+//   ClassName: "12th",
+//   emaail:"aarijdev@gmail.com"
+// };
+
+// for(let key in obj){
+//   console.log(key)
+// }
+
+//30 create an array in which ahve five movies name and log it;
+// const array = [
+//   "Super30",
+//   "War",
+//   "Kgf",
+//   "Rrr",
+//   "Saho",
+//   "Dangal"
+// ];
+
+// array.forEach((val)=>{
+//   console.log(val)
+// });
+
+// 31 create an array and log the 2 number of it;
+// const array = [1,2,3,4,5,,56,];
+// console.log(array[1]);
+
+// 32 create an array and push 2 number in starting and log it;
+// const arr = [1,2,3,4,5,6,7,8];
+// arr.unshift(10);
+// arr.unshift(9);
+// console.log(arr);
+
+// 33 remove last number of an array and log it;
+// const arr = [1,2,3,4,5,6,7,8];
+// arr.pop();
+// console.log(arr);
+
+// 34 extract 3 element of an array and log it;
+// const arr = [1,2,3,4,5,6,7,8];
+// console.log(arr.slice(0,3));
+
+// 35 find the specific index of an array and log it;
+// const arr = [1,2,3,4,5];
+// console.log(arr.indexOf(4));
+
+// 36 check in array value exist or not ;
+// const array = [1,2,3,4,5,6,7,8];
+// console.log(array.includes(10));
+
+// 37 carate two array and joined them;
+// const arr1 = [1,2,3,4,5,6,7,8,9,10];
+// const arr2 = [11,12,13,14,15,16,17,18,19,20];
+// const secnew = arr1.concat(arr2);
+// const newarr = [...arr1,...arr2];
+// console.log(newarr)
+
+
+// 38 create an array and find largest no and keep it in right side
+// const arr = [11,50,21,34,10];
+
+// for(let i = 0; i < arr.length -1; i++){
+//   if(arr[i] > arr[i+1]){
+//     var temp = arr[i];
+//     arr[i] = arr[i+1];
+//     arr[i+1] = temp
+//   }
+// }
+// console.log(arr);
+
+// 39 check if a number is odd or even;
+
+// function evenodd(value){
+//   if(value % 2 === 0){
+//     return "even " + value
+//   }else{
+//     return "odd " + value
+//   }
+// }
+// console.log(evenodd(3));
+
+// 40 create a function to find the area of square;
+// prsquare
+// function squareare(r){
+//   const pi = Math.PI
+//   return Math.floor(pi * r * r)
+// }
+// console.log(squareare(12));
+
+// 41 create a function that return sum of an arrray;
+
+//function sumofArray(arr){
+//   let sum = 0;
+//   arr.forEach((valu)=>{
+//     sum += valu
+//   })
+//   return sum
+// }
+
+// console.log(sumofArray([1,2,3,4,5]))
