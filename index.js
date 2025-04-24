@@ -106,21 +106,21 @@ findgrade(33)*/
 }
   
  isvowels("aarij")*/
+
+/*function checkNumber(num) {
+   if (num > 0) {
+     return 'Positive';
+   } else if (num < 0) {
+     return 'Negative';
+   } else {
+     return 'Zero';
+   }
+ }
  
- /*function checkNumber(num) {
-    if (num > 0) {
-      return 'Positive';
-    } else if (num < 0) {
-      return 'Negative';
-    } else {
-      return 'Zero';
-    }
-  }
-  
-  // Test cases:
-  console.log(checkNumber(10)); // Positive
-  console.log(checkNumber(-5)); // Negative
-  console.log(checkNumber(0));  // Zero*/
+ // Test cases:
+ console.log(checkNumber(10)); // Positive
+ console.log(checkNumber(-5)); // Negative
+ console.log(checkNumber(0));  // Zero*/
 
 
 // FIND DUPLICATE NUMBERS IN AN ARRAY
@@ -536,3 +536,68 @@ for(let val in obj){
 // }
 
 // console.log(sumofArray([1,2,3,4,5]))
+
+const indiaStates = [
+  "Andhra Pradesh",
+  "Arunachal Pradesh",
+  "Assam",
+  "Bihar",
+  "Chhattisgarh",
+  "Goa",
+  "Gujarat",
+  "Haryana",
+  "Himachal Pradesh",
+  "Jharkhand",
+  "Karnataka",
+  "Kerala",
+  "Madhya Pradesh",
+  "Maharashtra",
+  "Manipur",
+  "Meghalaya",
+  "Mizoram",
+  "Nagaland",
+  "Odisha",
+  "Punjab",
+  "Rajasthan",
+  "Sikkim",
+  "Tamil Nadu",
+  "Telangana",
+  "Tripura",
+  "Uttar Pradesh",
+  "Uttarakhand",
+  "West Bengal"
+];
+
+const searchbar = document.querySelector('#serachinput');
+const itemsContainer = document.querySelector('.items');
+
+searchbar.addEventListener('input', (e) => {
+  const uservalue = e.target.value.toLowerCase().trim();
+  itemsContainer.style.background = 'white'
+  itemsContainer.style.padding = '3px'
+
+  if (uservalue === "") {
+    itemsContainer.innerHTML = "";
+    itemsContainer.style.background = ''
+    itemsContainer.style.padding = ''
+    return;
+  }
+
+  const filteredItems = indiaStates.filter((value) => {
+    return value.toLowerCase().startsWith(uservalue);
+  });
+
+  if (filteredItems.length === 0) {
+    itemsContainer.innerHTML = "<li>Sorry, no matches found</li>";
+    return;
+  }
+
+  itemsContainer.innerHTML = filteredItems
+    .map((state) => `<li>${state}</li>`)
+});
+
+
+
+
+
+
